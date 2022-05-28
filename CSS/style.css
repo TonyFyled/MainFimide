@@ -230,10 +230,16 @@ ul{
     }
 }
 @media (max-width:500px) {
+  body{
+    font-weight: 700;
+  }
+  .section-heading h1{
+    font-size: 40px;
+  }
   .nav-content{
     flex-direction: column;
    }
-   .nav-content > *{
+   .nav-content .logo{
      margin-bottom: 20px;
    }
    #about .about-content img{
